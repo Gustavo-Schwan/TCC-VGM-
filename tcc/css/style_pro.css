@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #000000;
+  border: none;
+}
+
+
+header {
+  line-height: 60px;
+  font-weight: 400;
+  box-shadow: 0 1px 3px 0 #e66f00;
+  height: 60px;
+  background-color: #e66f00;
+  top: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 10000;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.header .menu {
+  float: center;
+  line-height: 60px;
+  margin-bottom: 0;
+  font-size: 13px;
+  list-style: none;
+}
+
+.header .menu li {
+  display: inline-block;
+}
+
+.header .menu li a {
+  display: block;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding: 0 40px;
+}
+
+.header .menu li a:hover {
+  background: #444444;
+}
+
+.containerpr {
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 30%;
+
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+  justify-items: space-between;
+  margin-top: 5rem;
+  background-color: #fff;
+  border-radius: 10%;
+  border-color: #e66f00;
+  border: 10px;
+}
+.title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.imagem {
+  width: 300px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+.info {
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.tituloProduto {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -0.2rem;
+}
+
+.descricao {
+  color: #000000;
+  font-family: sans-serif;
+  margin-left: 1rem;
+  margin-top: -1rem;
+  text-align: justify;
+}
+
+.preco {
+  color: #000000;
+
+  width: 250px;
+  font-family: sans-serif;
+  margin-left: 1rem;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.obs {
+  width: 80%;
+  border: 2px solid black;
+}
+.quantidade {
+  border: 2px solid black;
+}
+
+.btn{
+  padding:5%;
+  background-color:#ff8800;
+  border-radius:10px;
+  font-size: 15px;
+}
+
+.output {
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  margin-inline: auto;
+  margin-top: 5%;
+  gap: 10px;
+  display: flex;
+  justify-items: center;
+  flex-flow: row wrap;
+  padding: 2%;
+}
+.itemPedido {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 15% auto 8% 8%;
+  margin-inline: auto;
+  height: auto;
+}
+.itemPedido div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 50% auto;
+}
+.itemPedido img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.itemPedido div:has(button) {
+  display: grid;
+  grid-template-rows: 50% auto;
+}
+
+.itemPedido h1 {
+  font-size: 1rem;
+}
+
+
+
+a {
+  color: #e66f00;
+}
+
+body {
+  background-image: url('../img/fundo.jfif');
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+
+
